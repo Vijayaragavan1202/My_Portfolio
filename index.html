@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijayaragavan V - Analyst / ML Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .portfolio__item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio__item:hover {
+            transform: translateY(-5px);
+        }
+
+        .portfolio__item h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .portfolio__item p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .portfolio__skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .portfolio__skills span {
+            background: #f1f1f1;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .portfolio__skills span:hover {
+            background: #2c3e50;
+            color: #fff;
+        }
+
+        .portfolio__item h4 {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #34495e;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2>Vijayaragavan V</h2>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Vijayaragavan V</h1>
+                <h2 class="hero__subtitle">Aspiring Analyst & Machine Learning Intern</h2>
+                <p class="hero__tagline">Turning data into meaningful insights</p>
+                <div class="hero__actions">
+                    <a href="#portfolio" class="btn btn--primary">View My Projects</a>
+                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about__container container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about__content">
+                <div class="about__text">
+                    <p class="about__bio">
+                        I'm a B.Tech student in Computer Science and Engineering (AI & Data Science) at SASTRA Deemed to
+                        be University with hands-on experience in machine learning and analytics. I have worked on
+                        classification problems achieving high accuracy using algorithms like Logistic Regression,
+                        Random Forest, SVM, and KNN. My interests lie in data-driven applications, model optimization,
+                        and real-world problem solving.
+                    </p>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8.0</h3>
+                            <p>CGPA (till now)</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <div class="profile-placeholder">
+                        <span>Profile Photo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio__container container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <h3>Breast Cancer Prediction Using Supervised Learning</h3>
+                    <p>A binary classification project to classify breast tumors as benign or malignant using the Breast
+                        Cancer Wisconsin dataset. Achieved 96% accuracy after hyperparameter tuning.</p>
+                    <h4>Models Used:</h4>
+                    <div class="portfolio__skills">
+                        <span>Logistic Regression</span>
+                        <span>Random Forest</span>
+                        <span>SVM</span>
+                    </div>
+                    <h4>Libraries Used:</h4>
+                    <div class="portfolio__skills">
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <h4>Languages & Technologies:</h4>
+                    <div class="portfolio__skills">
+                        <span>Python</span>
+                        <span>Jupyter Notebook</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202" target="_blank" class="project-link">View on
+                        GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>Classification of Rice Varieties</h3>
+                    <p>A multi-class classification project for automated agricultural industries. Achieved 99.86%
+                        accuracy in classifying 5 rice varieties while optimizing training time and reducing space
+                        complexity.</p>
+                    <h4>Models Used:</h4>
+                    <div class="portfolio__skills">
+                        <span>KNN</span>
+                        <span>Decision Tree</span>
+                        <span>Logistic Regression</span>
+                        <span>Random Forest</span>
+                        <span>MLP</span>
+                        <span>SVM</span>
+                    </div>
+                    <h4>Libraries Used:</h4>
+                    <div class="portfolio__skills">
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <h4>Languages & Technologies:</h4>
+                    <div class="portfolio__skills">
+                        <span>Python</span>
+                        <span>Jupyter Notebook</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202" target="_blank" class="project-link">View on
+                        GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="skills__container container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills__content">
+                <div class="skills__category">
+                    <h3>Programming Languages</h3>
+                    <p>Python, C++, Java, SQL</p>
+                </div>
+                <div class="skills__category">
+                    <h3>Libraries & Tools</h3>
+                    <p>Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow, Jupyter Notebook, Google Colab, Anaconda</p>
+                </div>
+                <div class="skills__category">
+                    <h3>Concepts</h3>
+                    <p>Data Preprocessing (EDA), Feature Engineering, Model Evaluation, Hyperparameter Tuning</p>
+                </div>
+                <div class="skills__category">
+                    <h3>Certifications</h3>
+                    <div class="portfolio__skills">
+                        <span>Machine Learning (Andrew Ng - Coursera)</span>
+                        <span>Google Data Analytics (Coursera)</span>
+                        <span>Kaggle - MATLAB Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact__container container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <h4>Email</h4>
+                        <p>vijayr022005@gmail.com</p>
+                    </div>
+                    <div class="contact__item">
+                        <h4>Phone</h4>
+                        <p>+91 63740 93562</p>
+                    </div>
+                    <div class="contact__item">
+                        <h4>Location</h4>
+                        <p>Madurai, India</p>
+                    </div>
+                    <div class="contact__social">
+                        <a href="https://linkedin.com/in/vijay12022005" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/Vijayaragavan1202" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Vijayaragavan V</h3>
+                    <p>Turning data into meaningful insights</p>
+                </div>
+                <div class="footer__links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer__social">
+                    <a href="https://linkedin.com/in/vijay12022005" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Vijayaragavan1202" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Vijayaragavan V. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
