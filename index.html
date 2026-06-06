@@ -82,15 +82,19 @@
 
         .experience__logo {
             flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            width: 100px;
+            background: white;
+            border-radius: 8px;
+            padding: 8px;
         }
 
-        .experience__logo img {
-            height: 100px;
-            width: auto;
-            border-radius: 8px;
-            background: white;
-            padding: 8px;
-            display: block;
+        .mico-logo-svg {
+            width: 100%;
+            height: 100%;
         }
 
         .experience__header-content h3 {
@@ -277,7 +281,12 @@
                 <!-- Header with Logo -->
                 <div class="experience__header">
                     <div class="experience__logo">
-                        <img src="https://raw.githubusercontent.com/Vijayaragavan1202/My_Portfolio/main/assets/mico-logo.png" alt="Mico Inc. Logo">
+                        <svg class="mico-logo-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Purple background -->
+                            <rect width="200" height="200" fill="#7C3AED" rx="15"/>
+                            <!-- White text "Mico" -->
+                            <text x="100" y="110" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">Mico</text>
+                        </svg>
                     </div>
                     <div class="experience__header-content">
                         <h3>Mico Inc.</h3>
