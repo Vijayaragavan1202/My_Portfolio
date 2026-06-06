@@ -1,0 +1,11 @@
+Internship experience overview - skills used
+Snowflake, SQL advanced, PostrgreSQL, Snowflake cortex ai, claude code, streamlit, python, click rate prediction (ML), EDA, Prompt Orch, Progressive disclosure. Writing Skills for optimized workflow and token optimisation. Data engg works in kafka and airflow. Tableau, BI tools advanced level. CRM salesforce datasets as well.
+ 
+Wrote and optimized complex SQL queries to extract records from a large-scale Snowflake data warehouse, speeding up
+data extraction and report generation times by 10 to 20 percent.
+• Built and maintained interactive web dashboards using Streamlit, which helped business stakeholders track performance
+metrics and improved decision-making speed by 35 percent.
+• Developed an automated AI chatbot using Python and prompt frameworks to answer internal operational queries, cutting
+down manual support requests by 30 percent with an accuracy rate over 90 percent.
+• Partnered with business and technology teams to fix data inconsistencies, perform data quality debugging, and cleanly
+deploy code pipelines into live environments
