@@ -69,6 +69,37 @@
         .project-link:hover {
             text-decoration: underline;
         }
+
+        .experience__item {
+            background: #f9f9f9;
+            padding: 25px;
+            border-left: 4px solid #3498db;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .experience__title {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .experience__description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .experience__item ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .experience__item li {
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 
@@ -82,6 +113,7 @@
             <ul class="nav__menu" id="nav-menu">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                 <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
                 <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
@@ -121,7 +153,7 @@
                     </p>
                     <div class="about__stats">
                         <div class="stat">
-                            <h3>2+</h3>
+                            <h3>7+</h3>
                             <p>Projects Completed</p>
                         </div>
                         <div class="stat">
@@ -141,6 +173,38 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="portfolio__container container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="experience__item">
+                <h3 class="experience__title">Internship - Data Analytics & AI</h3>
+                <p class="experience__description"><strong>Skills & Technologies:</strong></p>
+                <div class="portfolio__skills">
+                    <span>Snowflake</span>
+                    <span>Advanced SQL</span>
+                    <span>PostgreSQL</span>
+                    <span>Snowflake Cortex AI</span>
+                    <span>Claude Code</span>
+                    <span>Streamlit</span>
+                    <span>Python</span>
+                    <span>ML Models</span>
+                    <span>EDA</span>
+                    <span>Prompt Orchestration</span>
+                </div>
+                <p class="experience__description"><strong>Key Achievements:</strong></p>
+                <ul>
+                    <li>Wrote and optimized complex SQL queries to extract records from a large-scale Snowflake data warehouse, speeding up data extraction and report generation times by 10-20%</li>
+                    <li>Built and maintained interactive web dashboards using Streamlit, which helped business stakeholders track performance metrics and improved decision-making speed by 35%</li>
+                    <li>Developed an automated AI chatbot using Python and prompt frameworks to answer internal operational queries, cutting down manual support requests by 30% with an accuracy rate over 90%</li>
+                    <li>Partnered with business and technology teams to fix data inconsistencies, perform data quality debugging, and cleanly deploy code pipelines into live environments</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="portfolio" class="portfolio">
         <div class="portfolio__container container">
@@ -149,42 +213,98 @@
             </div>
             <div class="portfolio__grid">
                 <div class="portfolio__item">
-                    <h3>Breast Cancer Prediction Using Supervised Learning</h3>
-                    <p>A binary classification project to classify breast tumors as benign or malignant using the Breast
-                        Cancer Wisconsin dataset. Achieved 96% accuracy after hyperparameter tuning.</p>
-                    <h4>Models Used:</h4>
+                    <h3>AI-Paralegal-Chatbot-using-RAG-Methods</h3>
+                    <p>A fully local RAG-based legal document assistant built with LangChain, Ollama (Llama-3), and Streamlit, enabling secure conversational analysis of legal documents without external API dependencies.</p>
                     <div class="portfolio__skills">
-                        <span>Logistic Regression</span>
-                        <span>Random Forest</span>
-                        <span>SVM</span>
-                    </div>
-                    <h4>Libraries Used:</h4>
-                    <div class="portfolio__skills">
-                        <span>Scikit-learn</span>
-                        <span>Pandas</span>
-                        <span>NumPy</span>
-                        <span>Matplotlib</span>
-                    </div>
-                    <h4>Languages & Technologies:</h4>
-                    <div class="portfolio__skills">
+                        <span>LangChain</span>
+                        <span>Ollama</span>
+                        <span>Llama-3</span>
+                        <span>Streamlit</span>
+                        <span>RAG</span>
                         <span>Python</span>
-                        <span>Jupyter Notebook</span>
                     </div>
-                    <a href="https://github.com/Vijayaragavan1202" target="_blank" class="project-link">View on
-                        GitHub</a>
+                    <a href="https://github.com/Vijayaragavan1202/AI-Paralegal-Chatbot-using-RAG-Methods" target="_blank" class="project-link">View on GitHub</a>
                 </div>
                 <div class="portfolio__item">
-                    <h3>Classification of Rice Varieties</h3>
-                    <p>A multi-class classification project for automated agricultural industries. Achieved 99.86%
-                        accuracy in classifying 5 rice varieties while optimizing training time and reducing space
-                        complexity.</p>
+                    <h3>PrepCSV - Automated-Data-Pipeline-Framework</h3>
+                    <p>Developed a Streamlit-powered AI data-cleaning and preprocessing framework that automates imputation, encoding, and scaling workflows for machine learning pipelines. Converts raw CSV datasets into production-ready formats.</p>
+                    <div class="portfolio__skills">
+                        <span>Streamlit</span>
+                        <span>Python</span>
+                        <span>Data Processing</span>
+                        <span>ML Pipelines</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/Automated-Data-Pipeline-Framework" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>Classification of Rice Varieties - Machine Learning</h3>
+                    <p>Multi-class classification project for automated agricultural industries. Achieved 99.86% accuracy in classifying 5 rice varieties (Arborio, Basmati, Ipsala, Jasmine, Karacadag) while optimizing training time by 46% and reducing space complexity by 54%.</p>
                     <h4>Models Used:</h4>
                     <div class="portfolio__skills">
                         <span>KNN</span>
+                        <span>MLP</span>
+                        <span>SVM</span>
                         <span>Decision Tree</span>
                         <span>Logistic Regression</span>
                         <span>Random Forest</span>
-                        <span>MLP</span>
+                    </div>
+                    <h4>Technologies:</h4>
+                    <div class="portfolio__skills">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/Classification-of-Rice-Varieties-Machine-Learning" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>E-Commerce-Website (MERN Stack)</h3>
+                    <p>Built a full-stack saree e-commerce platform using MongoDB, Express.js, React, and Node.js with complete CRUD operations, JWT authentication, and role-based authorization (user/admin).</p>
+                    <div class="portfolio__skills">
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>JWT</span>
+                        <span>MERN Stack</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/E-Commerce-Website" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>MERN-Task-Manager-App</h3>
+                    <p>Created a real-time task management application using MERN stack with features including create/read/update/delete operations, task filtering by status and priority, and statistical dashboard.</p>
+                    <div class="portfolio__skills">
+                        <span>MERN Stack</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Real-time Updates</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/MERN-Task-Manager-App" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>CTCVR-Prediction-for-BBA-Buyer-Book-Activity</h3>
+                    <p>Reproduced and extended a dual-target e-commerce conversion rate prediction framework. Built a logit-calibrated synthetic dataset of 50,000 instances using FM+DNN+BBA2vec architecture for CTR and CVR prediction.</p>
+                    <div class="portfolio__skills">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>Scikit-learn</span>
+                        <span>LightGBM</span>
+                        <span>SHAP</span>
+                        <span>Deep Learning</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/CTCVR-Prediction-for-BBA-Buyer-Book-Activity-" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>Breast Cancer Prediction Using Supervised Learning</h3>
+                    <p>A binary classification project to classify breast tumors as benign or malignant using the Breast Cancer Wisconsin dataset. Achieved 96% accuracy after hyperparameter tuning.</p>
+                    <h4>Models Used:</h4>
+                    <div class="portfolio__skills">
+                        <span>Logistic Regression</span>
+                        <span>Random Forest</span>
                         <span>SVM</span>
                     </div>
                     <h4>Libraries Used:</h4>
@@ -194,13 +314,29 @@
                         <span>NumPy</span>
                         <span>Matplotlib</span>
                     </div>
-                    <h4>Languages & Technologies:</h4>
+                    <a href="https://github.com/Vijayaragavan1202" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>Ball-and-Player-Tracking-using-OpenCV</h3>
+                    <p>Computer vision project for real-time object detection and tracking. Built using OpenCV to detect and track players and balls in sports video footage.</p>
                     <div class="portfolio__skills">
+                        <span>OpenCV</span>
                         <span>Python</span>
-                        <span>Jupyter Notebook</span>
+                        <span>Computer Vision</span>
+                        <span>Video Processing</span>
                     </div>
-                    <a href="https://github.com/Vijayaragavan1202" target="_blank" class="project-link">View on
-                        GitHub</a>
+                    <a href="https://github.com/Vijayaragavan1202/Ball-and-Player-Tracking-using-OpenCV" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="portfolio__item">
+                    <h3>Breast-Cancer-Prediction-Using-Supervised-Learning</h3>
+                    <p>Comprehensive analysis using multiple supervised learning techniques for medical diagnosis prediction with detailed model comparison and evaluation.</p>
+                    <div class="portfolio__skills">
+                        <span>Supervised Learning</span>
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Medical Data</span>
+                    </div>
+                    <a href="https://github.com/Vijayaragavan1202/Breast-Cancer-Prediction-Using-Supervised-Learning" target="_blank" class="project-link">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -215,15 +351,27 @@
             <div class="skills__content">
                 <div class="skills__category">
                     <h3>Programming Languages</h3>
-                    <p>Python, C++, Java, SQL</p>
+                    <p>Python, C++, Java, SQL, JavaScript, HTML, CSS</p>
+                </div>
+                <div class="skills__category">
+                    <h3>Data & Analytics Tools</h3>
+                    <p>Snowflake, PostgreSQL, SQL, Streamlit, EDA, Data Preprocessing</p>
+                </div>
+                <div class="skills__category">
+                    <h3>ML & AI Frameworks</h3>
+                    <p>Scikit-learn, Pandas, NumPy, TensorFlow, LangChain, Ollama, Claude AI</p>
+                </div>
+                <div class="skills__category">
+                    <h3>Web Technologies</h3>
+                    <p>React, Node.js, Express.js, MongoDB, MERN Stack, RESTful APIs</p>
                 </div>
                 <div class="skills__category">
                     <h3>Libraries & Tools</h3>
-                    <p>Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow, Jupyter Notebook, Google Colab, Anaconda</p>
+                    <p>Matplotlib, Jupyter Notebook, Google Colab, Anaconda, OpenCV, LightGBM, SHAP</p>
                 </div>
                 <div class="skills__category">
-                    <h3>Concepts</h3>
-                    <p>Data Preprocessing (EDA), Feature Engineering, Model Evaluation, Hyperparameter Tuning</p>
+                    <h3>ML Concepts</h3>
+                    <p>Feature Engineering, Model Evaluation, Hyperparameter Tuning, Classification, Regression, RAG Methods, Prompt Engineering</p>
                 </div>
                 <div class="skills__category">
                     <h3>Certifications</h3>
@@ -277,6 +425,7 @@
                 <div class="footer__links">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
                     <a href="#portfolio">Projects</a>
                     <a href="#skills">Skills</a>
                     <a href="#contact">Contact</a>
