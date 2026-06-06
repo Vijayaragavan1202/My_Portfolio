@@ -1,0 +1,16 @@
+project links
+AI-Paralegal-Chatbot-using-RAG-Methods https://github.com/Vijayaragavan1202/AI-Paralegal-Chatbot-using-RAG-Methods
+ 
+Automated-Data-Pipeline-Framework https://github.com/Vijayaragavan1202/Automated-Data-Pipeline-Framework
+ 
+Ball-and-Player-Tracking-using-OpenCV https://github.com/Vijayaragavan1202/Ball-and-Player-Tracking-using-OpenCV
+ 
+Breast-Cancer-Prediction-Using-Supervised-Learning https://github.com/Vijayaragavan1202/Breast-Cancer-Prediction-Using-Supervised-Learning
+ 
+Classification-of-Rice-Varieties-Machine-Learning https://github.com/Vijayaragavan1202/Classification-of-Rice-Varieties-Machine-Learning
+ 
+E-Commerce-Website https://github.com/Vijayaragavan1202/E-Commerce-Website
+ 
+MERN-Task-Manager-App https://github.com/Vijayaragavan1202/MERN-Task-Manager-App
+ 
+CTCVR-Prediction-for-BBA-Buyer-Book-Activity https://github.com/Vijayaragavan1202/CTCVR-Prediction-for-BBA-Buyer-Book-Activity-
