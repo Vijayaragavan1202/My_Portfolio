@@ -1,0 +1,73 @@
+
+All projects
+Portfolio website
+
+
+
+
+How can I help you today?
+
+
+Portfolio update with recent contents
+Last message 4 minutes ago
+Instructions
+Add instructions to tailor Claude’s responses
+
+Files
+5% of project capacity used
+
+Vijayaragavan1202/My_Portfolio
+main
+
+GITHUB
+
+
+
+project links
+15 lines
+
+text
+
+
+
+Projects
+27 lines
+
+text
+
+
+
+Internship
+15 lines
+
+text
+
+
+Projects
+1. AI-Paralegal-Chatbot-using-RAG-Methods
+A fully local RAG-based legal document assistant built with LangChain, Ollama (Llama-3), and Streamlit, enabling secure conversational analysis of legal documents without external API dependencies. Implemented Retrieval-Augmented Generation to enhance accuracy in legal information retrieval and document understanding. Demonstrated expertise in NLP, vector databases, and building privacy-first AI applications.
+ 
+2. PrepCSV  : Automated-Data-Pipeline-Framework
+Developed a Streamlit-powered AI data-cleaning and preprocessing framework that automates imputation, encoding, and scaling workflows for machine learning pipelines. Converts raw CSV datasets into ML-ready formats with a single click, reducing manual data preparation time. Integrated multiple preprocessing techniques with an intuitive UI for accessibility to non-technical users.
+ 
+5. Classification-of-Rice-Varieties-Machine-Learning
+This study has been focused on classification of five rice varieties namely Arborio, Basmati, Ipsala, Jasmine,
+and Karacadag using machine learning techniques.
+ 
+• Classification models such as k-Nearest Neighbor (KNN), Multi Layered Perceptron (MLP) and Support Vector Machine (SVM) are used for the classification
+of five rice varieties.
+• The study aims to demonstrate that integrating morphological, shape and color features can enhance
+classification accuracy.
+• Average Accuracy of 99.86% was obtained and major reduction of features (from base-paper) was done, from
+which the training time was reduced by 46.00% and space complexity was reduced by 54.00%
+ 
+6. E-Commerce-Website (MERN Stack)
+Built a full-stack saree e-commerce platform using MongoDB, Express.js, React, and Node.js with complete CRUD operations, JWT authentication, and role-based authorization (user/admin). Implemented shopping cart management, order processing, payment integration, and admin dashboard with product management capabilities. Demonstrated expertise in full-stack development, database design, API development, and responsive web design using Tailwind CSS.
+ 
+7. MERN-Task-Manager-App
+Created a real-time task management application using MERN stack with features including create/read/update/delete operations, task filtering by status and priority, and statistical dashboard. Implemented MongoDB schema design, RESTful API endpoints with proper error handling, and responsive React UI with smooth animations. Showcased skills in backend API design, frontend state management, and database optimization.
+ 
+9. CTCVR-Prediction-for-BBA-Buyer-Book-Activity
+CTCVR Prediction via FM+DNN+BBA2vec (Python, NumPy, scikit-learn, LightGBM, SHAP)
+Reproduced and extended a dual-target e-commerce conversion rate prediction framework (Wei et al., Expert Systems with Applications, 2024). Built a logit-calibrated synthetic dataset of 50,000 interaction records across 3,000 users, 5,000 products, and 200 campaigns. Implemented a custom Factorisation Machine (FM) with mini-batch SGD, a two-hidden-layer MLP with positive-class oversampling, and extended BBA2vec graph embeddings (48-dim) from a tripartite buyer-book-activity graph. An 8-configuration ablation study identified gap-closure feature engineering as the highest-impact component (+0.53% AUC). Final model achieves AUC = 0.8126, ECE = 0.049, and 95% bootstrap CI [0.768, 0.812]. Findings published as a full research paper with ablation tables, SHAP beeswarm plots, and calibration curves.
+ 
