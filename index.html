@@ -70,35 +70,112 @@
             text-decoration: underline;
         }
 
-        .experience__item {
+        .experience__container {
+            display: grid;
+            gap: 30px;
+        }
+
+        .experience__header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .experience__logo {
+            flex-shrink: 0;
+        }
+
+        .experience__logo img {
+            height: 100px;
+            width: auto;
+            border-radius: 8px;
+            background: white;
+            padding: 10px;
+        }
+
+        .experience__header-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .experience__header-content p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .experience__position {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .experience__section {
             background: #f9f9f9;
-            padding: 25px;
-            border-left: 4px solid #3498db;
+            padding: 30px;
+            border-left: 4px solid #667eea;
             border-radius: 8px;
             margin-bottom: 20px;
         }
 
-        .experience__title {
+        .experience__section h4 {
             color: #2c3e50;
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 10px;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            margin-top: 0;
         }
 
-        .experience__description {
+        .experience__section p {
             color: #555;
             line-height: 1.6;
             margin-bottom: 15px;
         }
 
-        .experience__item ul {
+        .experience__section ul {
             margin-left: 20px;
             color: #555;
             line-height: 1.8;
         }
 
-        .experience__item li {
-            margin-bottom: 8px;
+        .experience__section li {
+            margin-bottom: 12px;
+        }
+
+        .experience__highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight__item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 3px solid #667eea;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .highlight__number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .highlight__text {
+            color: #555;
+            font-size: 0.95rem;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -177,30 +254,82 @@
     <section id="experience" class="experience">
         <div class="portfolio__container container">
             <div class="section-header">
-                <h2 class="section-title">Experience</h2>
+                <h2 class="section-title">Professional Experience</h2>
             </div>
-            <div class="experience__item">
-                <h3 class="experience__title">Internship - Data Analytics & AI</h3>
-                <p class="experience__description"><strong>Skills & Technologies:</strong></p>
-                <div class="portfolio__skills">
-                    <span>Snowflake</span>
-                    <span>Advanced SQL</span>
-                    <span>PostgreSQL</span>
-                    <span>Snowflake Cortex AI</span>
-                    <span>Claude Code</span>
-                    <span>Streamlit</span>
-                    <span>Python</span>
-                    <span>ML Models</span>
-                    <span>EDA</span>
-                    <span>Prompt Orchestration</span>
+            
+            <div class="experience__header">
+                <div class="experience__logo">
+                    <img src="assets/mico-logo.png" alt="Mico Inc. Logo">
                 </div>
-                <p class="experience__description"><strong>Key Achievements:</strong></p>
-                <ul>
-                    <li>Wrote and optimized complex SQL queries to extract records from a large-scale Snowflake data warehouse, speeding up data extraction and report generation times by 10-20%</li>
-                    <li>Built and maintained interactive web dashboards using Streamlit, which helped business stakeholders track performance metrics and improved decision-making speed by 35%</li>
-                    <li>Developed an automated AI chatbot using Python and prompt frameworks to answer internal operational queries, cutting down manual support requests by 30% with an accuracy rate over 90%</li>
-                    <li>Partnered with business and technology teams to fix data inconsistencies, perform data quality debugging, and cleanly deploy code pipelines into live environments</li>
-                </ul>
+                <div class="experience__header-content">
+                    <h3>Mico Inc.</h3>
+                    <p>AI Analyst Intern</p>
+                    <span class="experience__position">Data Analytics & AI Development</span>
+                </div>
+            </div>
+
+            <div class="experience__container">
+                <div class="experience__section">
+                    <h4>Role Overview</h4>
+                    <p>
+                        As an AI Analyst Intern at Mico Inc., I played a critical role in designing and implementing data-driven solutions that enhanced business intelligence and operational efficiency. I worked at the intersection of data engineering and AI, leveraging advanced tools and methodologies to solve real-world business challenges. My responsibilities spanned the entire data pipeline from extraction and processing to model deployment and monitoring.
+                    </p>
+                </div>
+
+                <div class="experience__section">
+                    <h4>Key Responsibilities</h4>
+                    <ul>
+                        <li><strong>Data Warehouse Management:</strong> Wrote and optimized complex SQL queries on large-scale Snowflake data warehouse, extracting millions of records efficiently and reducing data extraction time by 10-20%</li>
+                        <li><strong>Dashboard Development:</strong> Built and maintained interactive web dashboards using Streamlit for real-time performance tracking and analytics, enabling stakeholders to make data-driven decisions 35% faster</li>
+                        <li><strong>AI Chatbot Development:</strong> Designed and deployed an automated AI-powered chatbot using Python and advanced prompt orchestration frameworks to handle internal operational queries with over 90% accuracy, reducing manual support requests by 30%</li>
+                        <li><strong>Data Quality Assurance:</strong> Partnered with cross-functional business and technology teams to identify and resolve data inconsistencies, perform comprehensive data quality debugging, and ensure clean deployment of code pipelines into production environments</li>
+                        <li><strong>AI Integration:</strong> Leveraged Snowflake Cortex AI and Claude AI capabilities to enhance data processing workflows and develop intelligent automation solutions</li>
+                    </ul>
+                </div>
+
+                <div class="experience__section">
+                    <h4>Key Achievements & Impact</h4>
+                    <div class="experience__highlights">
+                        <div class="highlight__item">
+                            <div class="highlight__number">10-20%</div>
+                            <div class="highlight__text">Improvement in Data Extraction Speed</div>
+                        </div>
+                        <div class="highlight__item">
+                            <div class="highlight__number">35%</div>
+                            <div class="highlight__text">Faster Decision-Making with Analytics</div>
+                        </div>
+                        <div class="highlight__item">
+                            <div class="highlight__number">90%+</div>
+                            <div class="highlight__text">AI Chatbot Accuracy Rate</div>
+                        </div>
+                        <div class="highlight__item">
+                            <div class="highlight__number">30%</div>
+                            <div class="highlight__text">Reduction in Manual Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience__section">
+                    <h4>Technical Skills & Technologies</h4>
+                    <div class="portfolio__skills">
+                        <span>Snowflake Data Warehouse</span>
+                        <span>Advanced SQL Optimization</span>
+                        <span>PostgreSQL</span>
+                        <span>Snowflake Cortex AI</span>
+                        <span>Claude AI</span>
+                        <span>Streamlit</span>
+                        <span>Python Programming</span>
+                        <span>Prompt Engineering</span>
+                        <span>API Integration</span>
+                        <span>Data Pipeline Development</span>
+                        <span>ETL Processes</span>
+                        <span>Business Intelligence</span>
+                        <span>Machine Learning</span>
+                        <span>EDA (Exploratory Data Analysis)</span>
+                        <span>Click Rate Prediction</span>
+                        <span>Progressive Disclosure</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
